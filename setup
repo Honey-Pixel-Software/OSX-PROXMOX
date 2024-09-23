@@ -37,7 +37,7 @@ if [ `pveversion | grep "pve-manager/[7,8]" | wc -l` -ne 1 ]
 then
 	echo "This version of Proxmox Virtual Environment are not supported"
 	echo "Please, utilize version: 7.XX or 8.2"
-	exit
+	echo "Ok, lets bypass this..."
 fi
 
 ################################################################################################################################################################################################
